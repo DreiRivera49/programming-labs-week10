@@ -4,10 +4,7 @@ def add_student(name):
 def display_students():
  for s in students:
  print(s)
-add_student("John")
-add_student("Emma")
+add_student(f"{students}) John")
+add_student(f"{students}) Emma")
 
-if students.index(1):
- print("There are two students on the list")
- 
 display_students()

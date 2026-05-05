@@ -9,14 +9,11 @@ def add_age(age):
  
 def display_students():
  for name_dis in name_list:
-  print(name_dis)
-
- for age_dis in age_list:
-  print(age_dis)
+  for age_dis in age_list:
+   if age_dis == 17:
+    print(f"{name_dis} is still a teenager")
 
 add_student("John")
-add_age(21)
-add_student("Emma")
-add_age(19)
+add_age(17)
 
 display_students()

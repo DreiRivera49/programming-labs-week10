@@ -6,5 +6,8 @@ def display_students():
  print(s)
 add_student("John")
 add_student("Emma")
-add_student("Ethan")
+
+if students.index(1):
+ print("There are two students on the list")
+ 
 display_students()
